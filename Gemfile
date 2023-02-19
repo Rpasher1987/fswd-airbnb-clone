@@ -19,8 +19,6 @@ gem 'webpacker', '~> 5.0'
 # Use Stripe for receiving payments
 gem 'stripe'
 
-# In Gemfile, add kaminari
-
 # Use kaminari for activerecord pagination
 gem 'kaminari'
 
