@@ -22,6 +22,9 @@ gem 'stripe'
 # Use kaminari for activerecord pagination
 gem 'kaminari'
 
+#Active Storage with Amazon AWS 3
+gem 'aws-sdk', '~> 3.0'
+
 # Use jquery as the JavaScript library
 # gem 'jquery-rails', '~> 4.4'
 # Use CoffeeScript for .coffee assets and views
