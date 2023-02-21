@@ -64,7 +64,7 @@ class EditProperty extends React.Component {
 
         fetch(`/api/properties/${this.props.data.property_id}`, safeCredentialsFormData ({
             method: 'PATCH',
-            body: formData,
+            body: formData, // body = formData - which is 
         }))
         .then(handleErrors)
         .then(data => {
@@ -82,7 +82,7 @@ class EditProperty extends React.Component {
                 error: 'Could not edit the property. Please try again Thank you.',
             })
         })
-    }
+    } // End updatePropertyAttributes
 
     render() {
         const { title, description, city, country, property_type, max_guests, bedrooms, beds, baths, price_per_night, error } = this.state;
